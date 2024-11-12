@@ -1,0 +1,160 @@
+.header {
+  background-color: #1c1e53;
+  @media (max-width: 991px) {
+    position: relative;
+  }
+  &-logo {
+    padding: 16px 0;
+  }
+  .header-menu.open {
+    translate: 0 0;
+  }
+  .menu-toggle {
+    @media (max-width: 991px) {
+      background-color: transparent;
+      border: none;
+      font-size: 30px;
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      color: #fff;
+    }
+    @media (min-width: 992px) {
+      display: none;
+    }
+  }
+  &-menu {
+    display: flex;
+    justify-content: flex-end;
+    @media (max-width: 991px) {
+      justify-content: flex-start;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 80%;
+      background-color: #fff;
+      height: 100vh;
+      box-shadow: -20px -1px 20px 20px rgba(0, 0, 0, 0.25);
+      translate: -100% 0;
+      transition: translate 0.3s;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      @media (max-width: 991px) {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 25px;
+        align-items: flex-start;
+      }
+      li {
+        margin-right: 26px;
+        position: relative;
+        &:after {
+          content: "";
+          width: 0;
+        }
+        &:hover {
+          &:after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #fff;
+            border-radius: 50px;
+            transition: 0.3s all;
+          }
+        }
+        a {
+          font-size: 16px;
+          font-weight: 500;
+          color: #fff;
+          @media (max-width: 991px) {
+            font-size: 30px;
+            color: #000;
+            line-height: 60px;
+          }
+        }
+      }
+    }
+  }
+
+  &-apresentacao {
+    padding: 70px 0;
+    @media (max-width: 991px) {
+      padding: 70px 0 100px;
+    }
+    .header-apresentacao-text {
+      h1 {
+        font-weight: 700;
+        font-size: 56px;
+        color: #fff;
+        @media (max-width: 991px) {
+          font-size: 25px;
+        }
+        span {
+          display: block;
+        }
+      }
+      p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        opacity: 39%;
+        span {
+          display: block;
+        }
+      }
+    }
+    .header-apresentacao-img {
+      @media (max-width: 991px) {
+        margin: 25px 0;
+      }
+      img {
+        @media (max-width: 991px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.header-rede-social {
+  display: flex;
+  align-items: center;
+  > span {
+    display: block;
+    color: #fff;
+    font-weight: 500;
+  }
+  a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 25px;
+  }
+  &-line {
+    display: block;
+    width: 65px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 10px;
+  }
+  &-img {
+    display: flex;
+    align-items: center;
+    span {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 3px;
+      display: flex;
+      align-items: center;
+      margin-right: 32px;
+      cursor: pointer;
+      svg {
+        color: #1c1e53;
+      }
+    }
+  }
+}

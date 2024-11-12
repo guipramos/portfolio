@@ -1,0 +1,41 @@
+# Dependências do Node
+node_modules/
+.pnpm/
+.pnpm-debug.log*
+.vscode/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+.next/
+out/
+
+# Logs e relatórios
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Cache
+.cache/
+.next/cache/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do Editor
+.idea/
+.vscode/
+
+# Testes e relatórios de cobertura
+coverage/
+.jest/
+
+# Configurações específicas do Next.js
+.next/server/pages/

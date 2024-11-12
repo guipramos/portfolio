@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.container-flex {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  @media (max-width: 991px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.main {
+  background-image: url("../app/img/line-bg.png");
+  background-color: #f4f6fc;
+  width: 100%;
+  background-position: center center;
+}
+
+footer {
+  background-color: #1c1e53;
+  .text {
+    padding: 24px;
+    p {
+      text-align: center;
+      color: #fff;
+      margin: 0;
+    }
+  }
+}
