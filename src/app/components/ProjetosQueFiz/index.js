@@ -1,12 +1,10 @@
 "use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation, EffectCards } from "swiper/modules";
-// Import Swiper styles
+import { EffectCards } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-cards";
 
-import { MdOutlineArrowRightAlt } from "react-icons/md";
 import pursuing from "../../img/pursuing.png";
 import tango from "../../img/tango.png";
 import forest from "../../img/forest.png";

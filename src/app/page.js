@@ -7,7 +7,6 @@ import Testimonials from "./components/Testimonials/Testimonials";
 
 export default function Home() {
   const currentDate = new Date().getFullYear();
-  console.log(currentDate);
 
   return (
     <>

@@ -11,7 +11,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br" cz-shortcut-listen="true">
       <head>
-        {/* Insira a tag <link> para a fonte importada */}
         <link rel="stylesheet" href={poppins.css} />
       </head>
       <body>{children}</body>

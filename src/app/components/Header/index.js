@@ -1,11 +1,5 @@
 "use client";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaBars,
-  FaTimes,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaBars, FaTimes } from "react-icons/fa";
 import "./styles.scss";
 import Image from "next/image";
 import logo from "../../../../public/Pramos.png";
@@ -85,14 +79,6 @@ const Header = () => {
               </div>
             </div>
           </div>
-          {/* <div className="header-apresentacao-img">
-            <Image
-              width={612}
-              height={408}
-              src={logoPrincipal}
-              alt="Foto de apresentação"
-            />
-          </div> */}
         </div>
       </div>
     </header>
