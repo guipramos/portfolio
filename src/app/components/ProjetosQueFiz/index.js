@@ -33,7 +33,7 @@ const projectsIFinished = {
 
 const ProjetosQueFiz = () => {
   return (
-    <section className="projetosQueFiz">
+    <section id="projetos" className="projetosQueFiz">
       <div className="container container-flex">
         <article className="projetosQueFiz-text">
           <h2>

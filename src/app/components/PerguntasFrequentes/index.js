@@ -32,7 +32,7 @@ const AccordionItem = ({ title, content }) => {
   };
 
   return (
-    <article className="accordion-item">
+    <article id="faq" className="accordion-item">
       <button className="accordion-header" onClick={handleToggle}>
         {title}
       </button>

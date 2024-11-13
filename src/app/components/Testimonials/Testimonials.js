@@ -47,7 +47,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="testimonialsSection">
+    <section id="depoimentos" className="testimonialsSection">
       <div className="container">
         <article className="testimonialsSection-text">
           <h2>Depoimentos</h2>

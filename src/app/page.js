@@ -14,7 +14,7 @@ export default function Home() {
       <main className="main">
         <ComoNosTrabalhamos />
         <ProjetosQueFiz />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <PerguntasFrequentes />
       </main>
       <footer>

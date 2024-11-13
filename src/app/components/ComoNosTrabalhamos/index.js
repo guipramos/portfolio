@@ -36,7 +36,7 @@ const portfolioServices = {
 
 const ComoNosTrabalhamos = () => {
   return (
-    <section className="comoNosTrabalhamos">
+    <section id="servicos" className="comoNosTrabalhamos">
       <div className="container container-flex">
         <article className="comoNosTrabalhamos-text">
           <h2>
