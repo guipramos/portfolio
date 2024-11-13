@@ -56,7 +56,7 @@ const Header = () => {
               alt="Imagem de Bem-vindo"
             />
             <h1>
-              Tenho experiecia <span>em desenvolvimento web</span>
+              Tenho experiência <span>em desenvolvimento web</span>
             </h1>
             <p>
               Prazer! Me chamo Guilherme, sou um desenvolvedor web criativo.
